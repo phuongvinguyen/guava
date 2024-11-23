@@ -17,7 +17,7 @@
     This project includes GWT-friendly sources.
   </description>
   <properties>
-    <gwt.version>2.11.0</gwt.version>
+    <gwt.version>2.12.0</gwt.version>
     <gwt.plugin.version>2.10.0</gwt.plugin.version>
     <gwt.logLevel>WARN</gwt.logLevel>
   </properties>
@@ -312,22 +312,22 @@
                 <!-- The following don't contain @GwtCompatible for dependency reasons. -->
                 <copy toDir="${project.build.directory}/guava-gwt-sources">
                   <fileset dir="${project.build.directory}/guava-sources">
-                    <include name="**/ListenableFuture.java" />
+                    <include name="**/ListenableFuture.java"/>
                   </fileset>
                 </copy>
                 <copy toDir="${project.build.directory}/guava-gwt-sources">
                   <fileset dir="${project.build.directory}/failureaccess-sources">
-                    <include name="**/InternalFutures.java" />
+                    <include name="**/InternalFutures.java"/>
                   </fileset>
                 </copy>
                 <copy toDir="${project.build.directory}/guava-gwt-sources">
                   <fileset dir="${project.build.directory}/failureaccess-sources">
-                    <include name="**/InternalFutureFailureAccess.java" />
+                    <include name="**/InternalFutureFailureAccess.java"/>
                   </fileset>
                 </copy>
                 <!-- Any manually written supersource should take priority over the original guava source, so we set overwrite=true. -->
                 <copy toDir="${project.build.directory}/guava-gwt-sources" overwrite="true">
-                  <fileset dir="src-super" />
+                  <fileset dir="src-super"/>
                 </copy>
                 <copy toDir="${project.build.directory}/guava-test-gwt-sources">
                   <fileset dir="${project.build.directory}/guava-test-sources">
