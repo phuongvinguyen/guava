@@ -174,7 +174,7 @@
               <path>
                 <groupId>com.google.errorprone</groupId>
                 <artifactId>error_prone_core</artifactId>
-                <version>2.33.0</version>
+                <version>2.36.0</version>
               </path>
             </annotationProcessorPaths>
             <!-- Fork because we need args like add-exports. (But see the TODO above about .mvn/jvm.config.) -->
