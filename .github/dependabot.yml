@@ -11,15 +11,15 @@ updates:
        applies-to: version-updates
        patterns:
          - "*"
- - package-ecosystem: "maven"
-   directory: "/android"
-   schedule:
-     interval: "weekly"
-   groups:
-     dependencies:
-       applies-to: version-updates
-       patterns:
-         - "*"
+ # - package-ecosystem: "maven"
+ #   directory: "/android"
+ #   schedule:
+ #     interval: "weekly"
+ #   groups:
+ #     dependencies:
+ #       applies-to: version-updates
+ #       patterns:
+ #         - "*"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
